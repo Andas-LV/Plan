@@ -1,0 +1,125 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #333;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: 1px solid white;
+    height: 100px;
+    background-color:black;
+    color: rgb(252, 190, 113);
+    text-align: center;
+}
+.main-nav{
+    width: 300px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navs{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 50px;
+    max-width: 1036px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.html{
+    width: 90px;
+}
+.css{
+    width: 70px;
+}
+.practice{
+    width: 123px;
+}
+.portfolio{
+    width: 131px;
+}
+.img-btn{
+    width: 48px;
+    height: 48px;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+.img{
+    width: 48px;
+    height: 48px;
+    margin-left: 25px;
+    margin-right: 50px;
+    cursor:pointer;
+}
+.img:hover{
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+/* SideBar */
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 50px;
+    max-width: 300px;
+    height: 625px;
+    border-right: 1px solid white;
+    background-color: #333;
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.sidebar ul {
+    list-style-type: none;
+}
+.a8{
+    padding-bottom: 20px;
+}
+.submenu{
+    display: none;
+    margin-top: 20px;
+    color:rgb(191, 187, 187);
+}
+.submenu li{
+    font-weight: 300;
+    font-size: 17px;
+    margin: 0 0 10px 0;
+    display: list-item;
+}
+.submenu li:nth-last-child(1){
+    margin-bottom: 15px;
+}
+.group-title{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color:rgb(254, 219, 176);
+}
+.sideBtn{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}

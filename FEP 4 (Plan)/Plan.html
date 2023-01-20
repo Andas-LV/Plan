@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan</title>
+    <link rel="stylesheet" href="./main.css" id="theme">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <span class="main-nav">Plan</span> 
+            <div class="navs">   
+                <a href="#" class="html">HTML</a>
+                <a href="#" class="css">CSS</a>
+                <a href="#" class="practice">Practice</a>
+                <a href="#" class="portfolio">Portfolio</a>
+            </div>
+            <div class="img-btn">
+                <img src="./icons/light mode icon.png" class="img" id="switchMode">
+            </div>
+        </div>
+    </header>
+
+    <section class="sidebar">
+        <ul>
+            <!-- 1 -->
+            <li class="sideBtn" onclick="showList(0)">
+                <a href="#" class="a1">
+                    Основы JavaScript
+                </a>
+                <ul class="submenu">
+                    <h5 class="group-title">Переменные и типы данных</h5>
+                        <li>Типы переменных:let,const,var</li>
+                        <li>Типы данных</li>
+                        <li>Приведение типов</li>
+                        <li>Базовые операторы</li>
+                        <li>Приоритеты операторов</li>
+                    <h5 class="group-title">Условия</h5>
+                        <li>if/else</li>
+                        <li>true/false</li>
+                        <li>операторы равенства</li>
+                        <li>Тернарный оператор</li>
+                        <li>Switch case выражения</li>
+                    <h5 class="group-title">Функции</h5>
+                        <li>Создание Функции</li>
+                        <li>Function expression/Function declaration</li>
+                        <li>Параметры и аргументы для функции</li>
+                        <li>return</li>
+                        <li>Функция как аргумент</li>
+                        <li>Самовызывающаяся функция IIFE</li>
+                        <li>Стрелочные функции</li>
+                    <h5 class="group-title">Массивы</h5>
+                        <li>Определение массивов</li>
+                        <li>Методы массивов</li>
+                        <li>Цикл for.Обход массива циклом for</li>
+                        <li>Цикл for(of).Обход массива циклом for(of)</li>
+                        <li>Метод.forEach() для обхода массивов</li>
+                    <h5 class="group-title">Обьекты</h5>
+                        <li>Обьекты.Свойства обьектов</li>
+                        <li>Методы в обьектах</li>
+                        <li>Ключевое слово this</li>
+                        <li>Обход свойств обьекта через цикл for(in)</li>
+                        <li>Нюанс с const и изменением обьекта или массива</li>
+                        <li>Классы.Конструкторы обьектов</li>
+                </ul>
+            </li>
+            <!-- 2 -->
+            <li class="sideBtn" onclick="showList(1)">
+                <a href="#" class="a2">
+                    Работа с DOM
+                </a>
+                <ul class="submenu">
+                    <h5 class="group-title">Теория JS</h5>
+                        <li>Область видимости</li>
+                        <li>Objects. Объекты в JavaScript</li>
+                        <li>Hoisting. Всплытие</li>
+                    <h5 class="group-title">Работа с DOM. Поиск DOM элементов</h5>
+                        <li>Выбор DOM элементов</li>
+                        <li>Выбор коллекции элементов</li>
+                        <li>ES5 методы для выбора элементов</li>
+                    <h5 class="group-title">Работа с CSS классами</h5>
+                        <li>classList</li>
+                        <li>className</li>
+                    <h5 class="group-title">Работа с атрибутами</h5>
+                        <li>src, alt, id, class</li>
+                        <li>Дата атрибуты</li>
+                    <h5 class="group-title">Прослушка событий</h5>
+                        <li>addEventListener - click, submit</li>
+                        <li>События наведения курсора</li>
+                        <li>События клавиатуры</li>
+                        <li>Свойство onclick</li>
+                        <li>Отмена событий</li>
+                    <h5 class="group-title">Объект event</h5>
+                        <li>event.preventDefault()</li>
+                        <li>event.stopPropagation()</li>
+                        <li>event.target</li>
+                        <li>event.currentTarget</li>
+                    <h5 class="group-title">Практика</h5>
+                        <li>Табы</li>
+                        <li>Аккордеон</li>
+                        <li>Модальное окно</li>
+                        <li>Мобильная навигация</li>
+                        <li>dropDown</li>
+                        <li>range slider</li>
+                        <li>Форматирование цен, дат, телефонов</li>
+                        <li>Календари</li>
+                        <li>Проверка формы на заполненность</li>
+                    <h5 class="group-title">Работа c HTML элементами. Создание. Копирование</h5>
+                        <li>Вставка через шаблонные строки</li>
+                        <li>Вставка через плейсхолдеры</li>
+                        <li>Создание DOM элементов</li>
+                    <h5 class="group-title">Размеры элементов на странице
+                        Отслеживание элементов</h5>
+                        <li>intersectionObserver</li>
+                    <h5 class="group-title">Асинхронность</h5>
+                        <li>Интервал setInterval. clearInterval</li>
+                        <li>Таймер setTimeout</li>
+                </ul>
+            </li>
+            <!-- 3 -->
+            <li class="sideBtn" onclick="showList(2)">
+                <a href="#" class="a3">
+                    Данные в JavaScript
+                </a>
+                <ul class="submenu">
+                    <h5 class="group-title">Данные в JavaScript</h5>
+                        <li>Методы массивов</li>
+                        <li>Вывод данных на страницу</li>
+                        <li>Добавить переключение по фильтрам / табам</li>
+                        <li>Сортировка и фильтрация данных на странице</li>
+                        <li>JSON формат</li>
+                        <li>localStorage</li>
+                </ul>
+            </li>
+            <!-- 4 -->
+            <li class="sideBtn" onclick="showList(3)">
+                <a href="#" class="a4">
+                    Fetch данных с API
+                </a>
+                <ul class="submenu">
+                    <h5 class="group-title">fetch</h5>
+                        <li>Получение данных с сервера</li>
+                        <li>Отправка данных на сервер</li>
+                    <h5 class="group-title">Асинхронный JS</h5>
+                        <li>Таймер setTimeout</li>
+                        <li>callbackHell небольшой пример</li>
+                        <li>Промисы</li>
+                        <li>Асинхронные функции</li>
+                    
+                </ul>
+            </li>
+            <!-- 5 -->
+            <li class="sideBtn" onclick="showList(4)">
+                <a href="#" class="a5">
+                    Архитектура в JS
+                </a>
+                <ul class="submenu">
+                    <h5 class="group-title">Модули</h5>
+                        <li>Модули ES5</li>
+                        <li>Модули ES6</li>
+                    <h5 class="group-title">Паттерн MVC</h5>
+                        <li>Теория</li>
+                        <li>Проект по паттерну MVC</li>
+                        <li>Самостоятельный проект с MVC</li>
+                </ul>
+            </li>
+            <!-- 6 -->
+            <li class="sideBtn" onclick="showList(5)">
+                <a href="#" class="a6">
+                    Сборка проекта
+                </a>
+                <ul class="submenu">
+                    <h5 class="group-title">Инструменты для сборки проекта</h5>
+                        <li>Node JS и NPM</li>
+                        <li>WebPack</li>
+                        <li>Parcel</li>
+                </ul>
+            </li>
+            <!-- 7 -->
+            <li class="sideBtn" onclick="showList(6)">
+                <a href="#" class="a7">
+                    ООП в JavaScript
+                </a>
+                <ul class="submenu">
+                    <li>Классы, конструктор, методы, объекты</li>
+                    <li>Проект с ООП подходом и MVC паттерном</li>
+                    <li>Самостоятельный проект</li>
+                </ul>
+            </li>
+            <!-- 8 -->
+            <li class="sideBtn" onclick="showList(7)">
+                <a href="#" class="a8">
+                    React JS
+                </a>
+                <ul class="submenu">
+                    <h5 class="group-title">Основы React JS</h5>
+                        <li>Функциональные компоненты</li>
+                        <li>JSX</li>
+                        <li>Props</li>
+                        <li>State</li>
+                        <li>События</li>
+                        <li>Условный рендеринг</li>
+                        <li>Жизненный цикл React компонентов</li>
+                        <li>Хуки</li>
+                        <li>Компоненты классы</li>
+                    <h5 class="group-title">Хуки</h5>
+                        <li>useState</li>
+                        <li>useEffect</li>
+                        <li>useRef</li>
+                        <li>useContext</li>
+                        <li>useReducer</li>
+                        <li>useMemo</li>
+                        <li>useCallback</li>
+                    <h5 class="group-title">Дополнительные пакеты</h5>
+                        <li>React Router</li>
+                        <li>Axios</li>
+                        <li>Styled Components</li>
+                    <h5 class="group-title">Управление состоянием</h5>
+                        <li>Redux и reducer</li>
+                        <li>action</li>
+                        <li>dispatch</li>
+                        <li>reducer</li>
+                        <li>store</li>
+                </ul>
+            </li>
+            
+        </ul>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
